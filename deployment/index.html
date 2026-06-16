@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zozo.ai — Grow Together | Digital Solutions & AI for Indian Businesses</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2317142E'/%3E%3Cpolyline points='7,7 25,7 7,25 25,25' fill='none' stroke='%23FFBE2E' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+<!-- Primary Meta -->
+<meta name="description" content="zozo.ai helps Indian businesses grow with websites, mobile apps, AI chatbots, dashboards and digital solutions. We build it, run it, and grow together.">
+<meta name="keywords" content="digital solutions India, AI for business, website development India, mobile app development, AI chatbot, business automation, digital growth India">
+<meta name="author" content="zozo.ai">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zozo.ai">
+<meta property="og:title" content="zozo.ai — Grow Together | Digital Solutions & AI for Indian Businesses">
+<meta property="og:description" content="zozo.ai helps Indian businesses grow with websites, mobile apps, AI chatbots, dashboards and digital solutions. We build it, run it, and grow together.">
+<meta property="og:site_name" content="zozo.ai">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://zozo.ai">
+<meta name="twitter:title" content="zozo.ai — Grow Together | Digital Solutions & AI for Indian Businesses">
+<meta name="twitter:description" content="zozo.ai helps Indian businesses grow with websites, mobile apps, AI chatbots and digital solutions. Built for India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Hind:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#17142E;--indigo:#241F5C;--is:#3A3490;
+  --paper:#FBF7EE;--p2:#F1EADB;
+  --mg:#F5A300;--mgb:#FFBE2E;
+  --em:#0F9C72;--emb:#16B884;
+  --line:rgba(23,20,46,.1);--ll:rgba(251,247,238,.12);
+  --i60:rgba(23,20,46,.6);--i35:rgba(23,20,46,.35);
+  --p70:rgba(251,247,238,.72);--p40:rgba(251,247,238,.4);
+  --sf:rgba(251,247,238,.06);
+  --wa:#25D366;
+  --r:16px;--rl:22px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Hind',system-ui,sans-serif;background:var(--paper);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.dp{font-family:'Bricolage Grotesque',sans-serif;line-height:1.05;letter-spacing:-.025em}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+
+/* ── NAV ──────────────────────────────────────────── */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:16px 28px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid transparent;transition:all .3s}
+nav.scrolled{background:rgba(23,20,46,.92);backdrop-filter:blur(18px) saturate(120%);-webkit-backdrop-filter:blur(18px) saturate(120%);border-bottom-color:var(--ll)}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;cursor:pointer}
+.logo-box{width:34px;height:34px;background:#0f0f18;border:1.5px solid rgba(251,247,238,.15);border-radius:9px;display:flex;align-items:center;justify-content:center}
+.logo-box svg{width:18px;height:18px;stroke:var(--emb);stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.logo-type{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.2rem;letter-spacing:-.04em;color:#fff}
+.logo-type .ai{color:var(--emb)}
+.nav-links{display:flex;align-items:center;gap:26px}
+.nav-links a{font-size:.87rem;font-weight:500;color:var(--p70);text-decoration:none;transition:color .2s;cursor:pointer}
+.nav-links a:hover,.nav-links a:focus-visible{color:#fff}
+.nav-links a:focus-visible{outline:2px solid var(--mgb);outline-offset:3px;border-radius:4px}
+.nav-wa{display:inline-flex;align-items:center;gap:7px;font-weight:700;font-size:.87rem;background:var(--wa);color:#fff;padding:9px 18px;border-radius:100px;text-decoration:none;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s;box-shadow:0 3px 12px rgba(37,211,102,.35)}
+.nav-wa:hover{background:#1DA851;transform:translateY(-1px);box-shadow:0 6px 20px rgba(37,211,102,.5)}
+.nav-wa:focus-visible{outline:2px solid var(--mgb);outline-offset:3px;border-radius:100px}
+.nav-wa svg{width:15px;height:15px;fill:currentColor;flex-shrink:0}
+
+/* ── HERO ─────────────────────────────────────────── */
+.hero{min-height:100vh;padding:140px 0 96px;background:radial-gradient(ellipse 80% 65% at 70% -8%,rgba(245,163,0,.2) 0%,transparent 55%),radial-gradient(ellipse 55% 50% at 4% 110%,rgba(22,184,132,.16) 0%,transparent 50%),linear-gradient(165deg,#1B1640 0%,var(--indigo) 55%,#2B2272 100%);color:var(--paper);position:relative;overflow:hidden;display:flex;align-items:center}
+.hero-dots{position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(rgba(251,247,238,.07) 1px,transparent 1px);background-size:30px 30px;mask-image:radial-gradient(ellipse 80% 75% at 50% 30%,black,transparent 75%);-webkit-mask-image:radial-gradient(ellipse 80% 75% at 50% 30%,black,transparent 75%)}
+.hero-content{max-width:760px;position:relative;z-index:2}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:100px;background:rgba(251,247,238,.08);border:1px solid rgba(251,247,238,.16);margin-bottom:26px}
+.badge-dot{width:7px;height:7px;border-radius:50%;background:var(--mgb);animation:bdot 2s ease-in-out infinite}
+@keyframes bdot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+.badge-txt{font-family:'Space Mono',monospace;font-size:.73rem;letter-spacing:.17em;text-transform:uppercase;color:var(--mgb)}
+h1.ht{font-size:clamp(2.8rem,7.5vw,5.6rem);font-weight:800;max-width:15ch;margin-bottom:20px}
+h1.ht em{font-style:normal;color:var(--mgb)}
+.hero-sub{font-size:clamp(.97rem,1.8vw,1.16rem);color:var(--p70);max-width:56ch;margin-bottom:36px;line-height:1.73}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-bottom:52px}
+.btn-mg{display:inline-flex;align-items:center;gap:8px;background:var(--mg);color:var(--ink);font-weight:700;font-size:.97rem;padding:13px 26px;border-radius:100px;text-decoration:none;cursor:pointer;box-shadow:0 3px 0 rgba(0,0,0,.18),0 6px 20px rgba(245,163,0,.35);transition:transform .18s,box-shadow .2s,background .2s}
+.btn-mg:hover{background:var(--mgb);transform:translateY(-2px);box-shadow:0 8px 26px rgba(245,163,0,.5)}
+.btn-mg:focus-visible{outline:2px solid #fff;outline-offset:3px;border-radius:100px}
+.btn-ghost{display:inline-flex;align-items:center;gap:8px;color:var(--p70);font-weight:500;font-size:.97rem;text-decoration:none;cursor:pointer;transition:color .2s,gap .2s}
+.btn-ghost:hover{color:var(--paper);gap:12px}
+.btn-ghost:focus-visible{outline:2px solid var(--mgb);outline-offset:3px;border-radius:4px}
+/* Hero stats strip */
+.hero-stats{display:flex;align-items:center;gap:0;border-top:1px solid rgba(251,247,238,.12);padding-top:32px}
+.hstat{padding:0 32px}.hstat:first-child{padding-left:0}
+.hstat-val{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:2rem;letter-spacing:-.03em}
+.hstat-lab{font-size:.82rem;color:var(--p40);margin-top:2px}
+.hstat-div{width:1px;height:40px;background:rgba(251,247,238,.12)}
+
+/* ── SECTION BASE ─────────────────────────────────── */
+.sec{padding:92px 0}
+.dk{background:var(--ink);color:var(--paper)}
+.lt{background:var(--paper)}
+.al{background:var(--p2)}
+.sec-kicker{font-family:'Space Mono',monospace;font-size:.73rem;letter-spacing:.18em;text-transform:uppercase;color:var(--em);margin-bottom:14px}
+.dk .sec-kicker{color:var(--mgb)}
+.sec-h{font-size:clamp(1.85rem,4.5vw,3rem);font-weight:800;max-width:22ch;margin-bottom:14px}
+.sec-lead{font-size:1.05rem;color:var(--i60);max-width:56ch;margin-bottom:50px;line-height:1.7}
+.dk .sec-lead{color:var(--p70)}
+
+/* ── INDIA PILLARS ────────────────────────────────── */
+.pil-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.pil{background:#fff;border:1px solid var(--line);border-radius:var(--rl);padding:26px;display:flex;flex-direction:column;transition:transform .22s,box-shadow .22s;cursor:default}
+.pil:hover{transform:translateY(-3px);box-shadow:0 14px 36px -10px rgba(23,20,46,.14)}
+.pil-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.pil-no{font-family:'Space Mono',monospace;font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;color:var(--ink);font-weight:600}
+.pil-ico{width:44px;height:44px;border-radius:11px;display:flex;align-items:center;justify-content:center}
+.pil-ico svg{width:22px;height:22px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.pi-vi{background:rgba(58,52,144,.1);color:var(--is)}
+.pi-go{background:rgba(245,163,0,.12);color:var(--mg)}
+.pi-em{background:rgba(15,156,114,.1);color:var(--em)}
+.pil-name{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.28rem;margin-bottom:16px}
+.ba{display:flex;flex-direction:column;gap:6px;margin-top:auto}
+.ba-row{padding:11px 13px;border-radius:10px}
+.ba-lbl{font-family:'Space Mono',monospace;font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;display:block;margin-bottom:3px}
+.ba-then{background:var(--p2)}
+.ba-then .ba-lbl{color:var(--i35)}.ba-then .ba-val{color:var(--i60);text-decoration:line-through;text-decoration-color:var(--i60);text-decoration-thickness:1.5px;font-size:.9rem}
+.ba-arr{color:var(--mg);text-align:center;font-size:2rem;line-height:1;margin:2px 0}
+.ba-ck{background:linear-gradient(135deg,#1B1640,var(--indigo))}.ba-ck .ba-lbl{color:var(--mgb)}.ba-ck .ba-val{color:var(--paper);font-weight:600;font-size:.9rem}
+.ba-bw{background:linear-gradient(135deg,#3d1800,#6b2f00)}.ba-bw .ba-lbl{color:var(--mgb)}.ba-bw .ba-val{color:var(--paper);font-weight:600;font-size:.9rem}
+.ba-po{background:linear-gradient(135deg,#082820,#0f4836)}.ba-po .ba-lbl{color:var(--emb)}.ba-po .ba-val{color:var(--paper);font-weight:600;font-size:.9rem}
+
+/* ── PATTERN SECTION ──────────────────────────────── */
+.pat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.pat-card{padding:28px 24px;border-radius:var(--r);border:1px solid var(--ll);border-top:3px solid;background:var(--sf);position:relative;overflow:hidden}
+.pat-card.c1{border-top-color:var(--mg)}.pat-card.c2{border-top-color:var(--emb)}.pat-card.c3{border-top-color:var(--mgb)}
+.pat-bg-n{font-family:'Bricolage Grotesque',sans-serif;font-size:6rem;font-weight:800;letter-spacing:-.04em;color:rgba(251,247,238,.06);position:absolute;top:4px;right:14px;line-height:1;pointer-events:none}
+.pat-n{font-family:'Space Mono',monospace;font-size:.67rem;letter-spacing:.16em;text-transform:uppercase;color:var(--p40);margin-bottom:10px;position:relative}
+.pat-t{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.5rem;margin-bottom:8px;color:var(--paper);position:relative}
+.pat-b{color:var(--p70);font-size:.93rem;line-height:1.65;position:relative}
+
+/* ── BUSINESS ERAS ────────────────────────────────── */
+.era-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.era-card{background:#fff;border:1px solid var(--line);border-radius:var(--rl);padding:26px;transition:transform .22s,box-shadow .22s;cursor:default;display:flex;flex-direction:column}
+.era-card:hover{transform:translateY(-3px);box-shadow:0 14px 36px -10px rgba(23,20,46,.14)}
+.era-card.now{background:linear-gradient(155deg,var(--indigo),var(--is));border-color:rgba(255,255,255,.1);color:var(--paper);position:relative}
+.era-card.now::after{content:'Your Turn';position:absolute;top:18px;right:18px;font-family:'Space Mono',monospace;font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;background:rgba(255,190,46,.15);color:var(--mgb);border:1px solid rgba(255,190,46,.3);padding:4px 10px;border-radius:100px}
+.era-tag{font-family:'Space Mono',monospace;font-size:.67rem;letter-spacing:.14em;text-transform:uppercase;color:var(--i35);margin-bottom:6px}
+.era-card.now .era-tag{color:var(--p40)}
+.era-name{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.28rem;margin-bottom:18px}
+.era-card.now .era-name{color:var(--paper)}
+
+/* ── BARRIER INDICATOR (redesigned) ──────────────── */
+.barrier{padding:14px 0 16px;border-bottom:1px solid var(--line);margin-bottom:16px}
+.era-card.now .barrier{border-bottom-color:rgba(251,247,238,.14)}
+.b-lbl{font-family:'Space Mono',monospace;font-size:.6rem;letter-spacing:.13em;text-transform:uppercase;color:var(--i35);display:block;margin-bottom:8px}
+.era-card.now .b-lbl{color:var(--p40)}
+.b-segs{display:flex;gap:4px;margin-bottom:9px}
+.bs{height:7px;flex:1;border-radius:4px}
+.bsh{background:var(--is);opacity:.8}   /* high — indigo */
+.bsm{background:var(--mg);opacity:.9}   /* medium — marigold */
+.bse{background:var(--line)}             /* empty — faint */
+.bsl{background:rgba(22,184,132,.28)}    /* cleared — emerald tint */
+.b-tag{font-family:'Space Mono',monospace;font-size:.61rem;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:100px;display:inline-block}
+.tag-h{background:rgba(58,52,144,.1);color:var(--is)}
+.tag-m{background:rgba(245,163,0,.12);color:var(--mg)}
+.tag-l{background:rgba(22,184,132,.14);color:var(--emb)}
+
+.era-eq{font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:1rem;margin-bottom:10px}
+.era-op{color:var(--mg)}.era-grow{color:var(--em)}
+.era-card.now .era-op{color:var(--mgb)}.era-card.now .era-grow{color:var(--emb)}
+.era-body{font-size:.9rem;color:var(--i60);line-height:1.6}
+.era-card.now .era-body{color:var(--p70)}
+.era-foot{margin-top:auto;padding-top:14px;border-top:1px solid var(--line);font-size:.83rem;font-weight:600}
+.era-card.now .era-foot{border-top-color:rgba(251,247,238,.12);color:var(--mgb)}
+.era-foot small{display:block;font-family:'Space Mono',monospace;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--i35);margin-bottom:4px;font-weight:400}
+.era-card.now .era-foot small{color:var(--p40)}
+.you-chip{display:inline-flex;align-items:center;gap:8px;background:rgba(255,190,46,.14);border:1px solid rgba(255,190,46,.35);color:var(--mgb);padding:8px 14px;border-radius:100px;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1rem;margin-top:4px}
+.you-chip svg{width:16px;height:16px;stroke:var(--mgb);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+
+/* ── ACCESS BAND ──────────────────────────────────── */
+.access{background:linear-gradient(160deg,#1B1640,var(--indigo));color:var(--paper);padding:76px 0;text-align:center}
+.access h2{font-size:clamp(1.7rem,4vw,2.8rem);font-weight:800;max-width:22ch;margin:0 auto 14px}
+.access h2 em{font-style:normal;color:var(--mgb)}
+.access p{color:var(--p70);font-size:1.04rem;max-width:54ch;margin:0 auto}
+
+/* ── CAPABILITIES — 3×2 EQUAL GRID ───────────────── */
+.cap-bento{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.cap-card{background:#fff;border:1px solid var(--line);border-radius:var(--rl);padding:26px;transition:transform .22s,border-color .22s,box-shadow .22s;cursor:default}
+.cap-card:hover{transform:translateY(-4px);border-color:var(--mg);box-shadow:0 16px 36px -16px rgba(23,20,46,.18)}
+.cap-card.featured{background:linear-gradient(145deg,rgba(245,163,0,.06),rgba(245,163,0,.02));border-color:rgba(245,163,0,.2)}
+.cap-ico{width:50px;height:50px;border-radius:13px;display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+.cap-ico svg{width:24px;height:24px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.ci-vi{background:#EBEBF8;color:var(--is)}
+.ci-mg{background:rgba(245,163,0,.12);color:var(--mg)}
+.ci-em{background:rgba(15,156,114,.1);color:var(--em)}
+.ci-li{background:var(--p2);color:var(--ink)}
+.cap-tag{font-family:'Space Mono',monospace;font-size:.63rem;letter-spacing:.14em;text-transform:uppercase;color:var(--i35);margin-bottom:8px}
+.cap-t{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.12rem;margin-bottom:6px}
+.cap-b{color:var(--i60);font-size:.88rem;line-height:1.6}
+
+/* ── WHO SECTION ──────────────────────────────────── */
+.who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.who-card{display:flex;align-items:center;gap:13px;padding:15px 17px;border-radius:14px;background:#fff;border:1px solid var(--line);font-weight:600;font-size:.94rem;cursor:default;transition:transform .2s,border-color .2s}
+.who-card:hover{transform:translateY(-2px);border-color:var(--mg)}
+.w-ico{width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.w-ico svg{width:19px;height:19px;stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.wi-vi{background:#EBEBF8;color:var(--is)}.wi-mg{background:rgba(245,163,0,.12);color:var(--mg)}.wi-em{background:rgba(15,156,114,.1);color:var(--em)}
+.ticker-wrap{margin-top:40px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.ticker{display:flex;width:max-content;animation:scroll 26s linear infinite}
+.ticker span{font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:1.04rem;white-space:nowrap;padding:0 24px;display:inline-flex;align-items:center;gap:24px;color:var(--i60)}
+.ticker span::after{content:"·";color:var(--mg)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+
+
+/* ── FOOTER ───────────────────────────────────────── */
+footer{margin-top:80px;background:rgba(14,11,26,.9);border-top:1px solid rgba(251,247,238,.07);padding:56px 0 0}
+.logo-img{display:inline-flex;align-items:center}
+.li-z{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.3rem;color:#fff;letter-spacing:-.04em;line-height:1}
+.li-ai{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.3rem;color:var(--mgb);letter-spacing:-.04em;line-height:1}
+.foot-top{margin-bottom:40px}
+.foot-brand{display:flex;flex-direction:column;gap:14px}
+.foot-logo-row{display:flex;align-items:center;gap:10px}
+.foot-logo-box{width:34px;height:34px;background:#0f0f18;border:1.5px solid rgba(251,247,238,.15);border-radius:9px;display:flex;align-items:center;justify-content:center}
+.foot-logo-box svg{width:18px;height:18px;stroke:var(--emb);stroke-width:2.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.foot-logo-name{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.25rem;letter-spacing:-.04em;color:#fff}
+.foot-logo-name .ai{color:var(--emb)}
+.foot-tagline{font-size:.9rem;color:var(--p40);line-height:1.65;max-width:26ch}
+.foot-col h4{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:.95rem;color:#fff;margin-bottom:16px}
+.foot-col ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.foot-col ul li a{font-size:.87rem;color:var(--p40);text-decoration:none;cursor:pointer;transition:color .2s;display:inline-flex;align-items:center;gap:7px}
+.foot-col ul li a:hover{color:#fff}
+.foot-col ul li a:focus-visible{outline:2px solid var(--mgb);outline-offset:3px;border-radius:3px}
+.wa-badge{display:inline-flex;align-items:center;gap:4px;font-family:'Space Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;background:rgba(37,211,102,.14);color:var(--wa);padding:2px 7px;border-radius:100px}
+.foot-bottom{border-top:1px solid rgba(251,247,238,.07);padding:20px 0;text-align:center}
+.foot-copy{font-size:.78rem;color:var(--p40)}
+.foot-copy strong{color:var(--p70)}
+.foot-sub-links{display:flex;gap:20px}
+.foot-sub-links a{font-size:.76rem;color:var(--p40);text-decoration:none;cursor:pointer;transition:color .2s}
+.foot-sub-links a:hover{color:var(--p70)}
+
+/* ── WHATSAPP FLOAT ───────────────────────────────── */
+.wa-float{position:fixed;bottom:26px;right:26px;z-index:200;display:inline-flex;align-items:center;gap:9px;background:var(--wa);color:#fff;padding:13px 20px;border-radius:100px;text-decoration:none;cursor:pointer;box-shadow:0 6px 24px rgba(37,211,102,.5);font-family:'Hind',sans-serif;font-weight:700;font-size:.88rem;transition:transform .2s,box-shadow .2s,background .2s}
+.wa-float:hover{background:#1DA851;transform:translateY(-3px);box-shadow:0 12px 32px rgba(37,211,102,.65)}
+.wa-float:focus-visible{outline:2px solid var(--mgb);outline-offset:4px;border-radius:100px}
+.wa-float svg{width:20px;height:20px;fill:currentColor;flex-shrink:0}
+
+/* ── REVEAL ───────────────────────────────────────── */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+.rv.in{opacity:1;transform:none}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
+
+/* ── RESPONSIVE ───────────────────────────────────── */
+@media(max-width:768px){
+  .pil-grid,.pat-grid,.era-grid,.cap-bento,.who-grid{grid-template-columns:1fr}
+  .nav-links{display:none}
+  nav{padding:14px 18px}
+  .hero-stats{flex-wrap:wrap;gap:20px}
+  .hstat-div{display:none}
+  .hstat{padding:0}
+  .foot-top{grid-template-columns:1fr 1fr;gap:32px}
+}
+@media(max-width:480px){
+  .sec{padding:72px 0}
+  .hero{padding:118px 0 68px}
+  .foot-top{grid-template-columns:1fr}
+  .wa-float span{display:none}
+  .wa-float{padding:13px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  .rv{opacity:1;transform:none;transition:none}
+}
+</style>
+</head>
+<body>
+
+<!-- WhatsApp float -->
+<a href="https://wa.me/919076199333?text=Hi%20zozo.ai!%20I%27m%20interested%20in%20your%20services."
+   class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.998 2.001a9.998 9.998 0 0 0-8.659 14.987L2 22l5.15-1.298A9.998 9.998 0 1 0 11.998 2zm0 18.286a8.285 8.285 0 0 1-4.228-1.16l-.303-.18-3.056.77.797-2.976-.197-.307a8.286 8.286 0 1 1 7 3.853z"/></svg>
+  <span>Chat with us</span>
+</a>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo" aria-label="zozo.ai home">
+    <div class="logo-img" role="img" aria-label="zozo.ai"><span class="li-z">zozo</span><span class="li-ai">.ai</span></div>
+  </a>
+  <div class="nav-links" role="navigation" aria-label="Main">
+    <a href="#story">The Story</a>
+    <a href="#eras">The Shift</a>
+    <a href="#services">Services</a>
+    <a href="#who">Who We Help</a>
+  </div>
+
+</nav>
+
+<!-- HERO — single column, no right panel -->
+<header class="hero" id="top">
+  <div class="hero-dots" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="hero-content">
+      <div class="hero-badge rv"><span class="badge-dot" aria-hidden="true"></span><span class="badge-txt">India · Digital · AI</span></div>
+      <h1 class="ht dp rv d1">The whole of India changed format.<br><em>Your business is next.</em></h1>
+      <p class="hero-sub rv d2">In just a few years, the three things every Indian follows were transformed by the same shift — faster, more direct, open to everyone. That shift has now reached your business.</p>
+      <div class="hero-ctas rv d3">
+        <a href="https://wa.me/919076199333?text=Hi%20zozo.ai!%20I%27m%20interested%20in%20your%20services." class="btn-mg" target="_blank" rel="noopener noreferrer">Get Started</a>
+        <a href="#story" class="btn-ghost">See what changed ↓</a>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<!-- INDIA PILLARS -->
+<section class="sec lt" id="story">
+  <div class="wrap">
+    <p class="sec-kicker rv">The last few years</p>
+    <h2 class="sec-h dp rv">Three pillars of India. One quiet revolution.</h2>
+    <p class="sec-lead rv">Cricket, films, and politics didn't just change — they each got faster and came closer to the people. Look at the before and after.</p>
+    <div class="pil-grid">
+      <article class="pil rv" tabindex="0">
+        <div class="pil-top"><span class="pil-no">01 — Cricket</span>
+          <div class="pil-ico pi-vi" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 19L18 6" style="stroke-width:3.5;stroke-linecap:round"/><path d="M18 6L21 3" style="stroke-width:1.5"/><circle cx="21" cy="3" r="1.5" style="fill:currentColor;stroke:none"/><path d="M5 19L3 21" style="stroke-width:1.5"/></svg></div>
+        </div>
+        <h3 class="pil-name dp">From 5 days to a few hours</h3>
+        <div class="ba">
+          <div class="ba-row ba-then"><span class="ba-lbl">Then</span><span class="ba-val">Wait 5 days for a result</span></div>
+          <div class="ba-arr" aria-hidden="true">↓</div>
+          <div class="ba-row ba-ck"><span class="ba-lbl">Now</span><span class="ba-val">T20 &amp; IPL — a full result in 3 hours, on every phone in the country</span></div>
+        </div>
+      </article>
+      <article class="pil rv d1" tabindex="0">
+        <div class="pil-top"><span class="pil-no">02 — Bollywood</span>
+          <div class="pil-ico pi-go" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="8" width="20" height="14" rx="2"/><path d="M2 12h20"/><path d="M7 8V5l10 3V8"/></svg></div>
+        </div>
+        <h3 class="pil-name dp">From one screen to every screen</h3>
+        <div class="ba">
+          <div class="ba-row ba-then"><span class="ba-lbl">Then</span><span class="ba-val">One long film, one cinema hall, one city</span></div>
+          <div class="ba-arr" aria-hidden="true">↓</div>
+          <div class="ba-row ba-bw"><span class="ba-lbl">Now</span><span class="ba-val">OTT, reels, pan-India dubs — anything, anywhere, any length</span></div>
+        </div>
+      </article>
+      <article class="pil rv d2" tabindex="0">
+        <div class="pil-top"><span class="pil-no">03 — Politics</span>
+          <div class="pil-ico pi-em" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="8" y1="22" x2="16" y2="22"/></svg></div>
+        </div>
+        <h3 class="pil-name dp">From the stage to your screen</h3>
+        <div class="ba">
+          <div class="ba-row ba-then"><span class="ba-lbl">Then</span><span class="ba-val">Rallies, newspapers, TV — slow and one-way</span></div>
+          <div class="ba-arr" aria-hidden="true">↓</div>
+          <div class="ba-row ba-po"><span class="ba-lbl">Now</span><span class="ba-val">Social media — direct, instant, in every regional language</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<!-- PATTERN BAND -->
+<section class="sec dk">
+  <div class="wrap">
+    <p class="sec-kicker rv">Notice the pattern</p>
+    <h2 class="sec-h dp rv" style="color:var(--paper)">The same three things changed every time.</h2>
+    <div class="pat-grid">
+      <div class="pat-card c1 rv"><span class="pat-bg-n" aria-hidden="true">01</span><p class="pat-n">Pattern one</p><h3 class="pat-t dp">Faster</h3><p class="pat-b">Results, content, messages — what took days now takes minutes.</p></div>
+      <div class="pat-card c2 rv d1"><span class="pat-bg-n" aria-hidden="true">02</span><p class="pat-n">Pattern two</p><h3 class="pat-t dp">Direct</h3><p class="pat-b">The middleman disappeared. You reach people straight on their phones.</p></div>
+      <div class="pat-card c3 rv d2"><span class="pat-bg-n" aria-hidden="true">03</span><p class="pat-n">Pattern three</p><h3 class="pat-t dp">Open to all</h3><p class="pat-b">Reach stopped belonging only to the biggest player with the biggest budget.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- BUSINESS ERAS — redesigned barrier -->
+<section class="sec al" id="eras">
+  <div class="wrap">
+    <p class="sec-kicker rv">It happened to business too</p>
+    <h2 class="sec-h dp rv">The rules changed three times. The latest one is yours.</h2>
+    <p class="sec-lead rv">Same story as cricket, films, and politics. Each shift lowered the barrier to entry. The latest one is happening right now.</p>
+    <div class="era-grid">
+
+      <!-- Era 1 -->
+      <article class="era-card rv" tabindex="0">
+        <p class="era-tag">Before 2010</p>
+        <h3 class="era-name dp">Capital &amp; Connections</h3>
+        <div class="barrier">
+          <span class="b-lbl">Entry Barrier</span>
+          <div class="b-segs" aria-hidden="true">
+            <div class="bs bsh"></div><div class="bs bsh"></div><div class="bs bsh"></div><div class="bs bsh"></div><div class="bs bsh"></div>
+          </div>
+          <span class="b-tag tag-h">Very High</span>
+        </div>
+        <p class="era-eq dp">Capital <span class="era-op">+</span> Connections <span class="era-op">=</span> <span class="era-grow">Growth</span></p>
+        <p class="era-body">Big business needed deep pockets, the right contacts, and distribution reaching across the country.</p>
+        <div class="era-foot"><small>Built this way</small>Reliance · Godrej · Bajaj · Aditya Birla</div>
+      </article>
+
+      <!-- Era 2 -->
+      <article class="era-card rv d1" tabindex="0">
+        <p class="era-tag">2011 – 2025</p>
+        <h3 class="era-name dp">Internet &amp; E-commerce</h3>
+        <div class="barrier">
+          <span class="b-lbl">Entry Barrier</span>
+          <div class="b-segs" aria-hidden="true">
+            <div class="bs bsm"></div><div class="bs bsm"></div><div class="bs bsm"></div><div class="bs bse"></div><div class="bs bse"></div>
+          </div>
+          <span class="b-tag tag-m">Lowered</span>
+        </div>
+        <p class="era-eq dp">Technology <span class="era-op">+</span> Internet <span class="era-op">=</span> <span class="era-grow">Growth</span></p>
+        <p class="era-body">The web and the smartphone opened the gates. A sharp team online could outrun a legacy giant.</p>
+        <div class="era-foot"><small>Built this way</small>Zerodha · Zomato · Zoho · Zepto</div>
+      </article>
+
+      <!-- Era 3 -->
+      <article class="era-card now rv d2" tabindex="0">
+        <p class="era-tag">2025 onwards</p>
+        <h3 class="era-name dp">Your Turn — AI</h3>
+        <div class="barrier">
+          <span class="b-lbl">Entry Barrier</span>
+          <div class="b-segs" aria-hidden="true">
+            <div class="bs bsl"></div><div class="bs bsl"></div><div class="bs bsl"></div><div class="bs bsl"></div><div class="bs bsl"></div>
+          </div>
+          <span class="b-tag tag-l">Ground Level</span>
+        </div>
+        <p class="era-eq dp">AI <span class="era-op">+</span> Implementation <span class="era-op">=</span> <span class="era-grow">Growth</span></p>
+        <p class="era-body">Adopt AI and put it to work inside your business. zozo builds and runs all of it for you.</p>
+        <div class="era-foot"><small>Built this way</small><div class="you-chip"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>You.</div></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ACCESS BAND -->
+<div class="access">
+  <div class="wrap">
+    <h2 class="dp rv">A small shop or a small town <em>no longer holds you back.</em></h2>
+    <p class="rv d1">Whether you're a trader with one counter or running a business from a small town, AI now gives you access to everything that was once reserved for the biggest players.</p>
+  </div>
+</div>
+
+<!-- CAPABILITIES — equal 3×2 bento -->
+<section class="sec lt" id="services">
+  <div class="wrap">
+    <p class="sec-kicker rv">What you can do now</p>
+    <h2 class="sec-h dp rv">Everything a big company had — now in your hands.</h2>
+    <p class="sec-lead rv">There's so much an Indian business can do with digital tools and AI today. zozo builds and runs every bit of it for you.</p>
+    <div class="cap-bento">
+      <div class="cap-card rv" tabindex="0">
+        <div class="cap-ico ci-mg" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <p class="cap-tag">24 / 7 Customer Support</p>
+        <h3 class="cap-t dp">Answer instantly, around the clock</h3>
+        <p class="cap-b">Reply to every customer the second they message — in their language, even at 2 AM.</p>
+      </div>
+      <div class="cap-card rv d1" tabindex="0">
+        <div class="cap-ico ci-vi" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+        <p class="cap-tag">Growth</p>
+        <h3 class="cap-t dp">Reach beyond your gali</h3>
+        <p class="cap-b">Show up online and pull in customers you'd never have met — like a film going pan-India.</p>
+      </div>
+      <div class="cap-card rv d2" tabindex="0">
+        <div class="cap-ico ci-li" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+        <p class="cap-tag">Automation</p>
+        <h3 class="cap-t dp">Automate the manual</h3>
+        <p class="cap-b">Billing, follow-ups, inventory, reminders — done automatically. Hours collapse into minutes.</p>
+      </div>
+      <div class="cap-card rv" tabindex="0">
+        <div class="cap-ico ci-em" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+        <p class="cap-tag">Analytics</p>
+        <h3 class="cap-t dp">Decide with data</h3>
+        <p class="cap-b">Know what sells, when, and to whom — the same edge that big companies always had.</p>
+      </div>
+      <div class="cap-card rv d1" tabindex="0">
+        <div class="cap-ico ci-mg" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4z"/></svg></div>
+        <p class="cap-tag">Content</p>
+        <h3 class="cap-t dp">Create in minutes</h3>
+        <p class="cap-b">Posts, catalogues, offers, replies — generated in moments instead of days.</p>
+      </div>
+      <div class="cap-card rv d2" tabindex="0">
+        <div class="cap-ico ci-vi" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="4 8 4 4 20 4 20 8"/><path d="M4 8a8 8 0 0 0 16 0"/><line x1="12" y1="16" x2="12" y2="20"/><line x1="8" y1="20" x2="16" y2="20"/></svg></div>
+        <p class="cap-tag">Performance</p>
+        <h3 class="cap-t dp">Bat at full strike rate</h3>
+        <p class="cap-b">A one-person shop performing like a 20-person team. That's the T20 game.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO SECTION -->
+<section class="sec al" id="who">
+  <div class="wrap">
+    <p class="sec-kicker rv">This means you</p>
+    <h2 class="sec-h dp rv">Whatever you run, this is for you.</h2>
+    <p class="sec-lead rv">From a single counter to a workshop floor to a laptop at home — the same advantage is now within reach.</p>
+    <div class="who-grid">
+      <div class="who-card rv" tabindex="0"><div class="w-ico wi-vi" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>Kirana store owner</div>
+      <div class="who-card rv d1" tabindex="0"><div class="w-ico wi-mg" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>Pharmacy owner</div>
+      <div class="who-card rv d2" tabindex="0"><div class="w-ico wi-em" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="15" rx="2"/><polyline points="17 2 17 7 7 7 7 2"/></svg></div>Manufacturer</div>
+      <div class="who-card rv" tabindex="0"><div class="w-ico wi-vi" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M6 20v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/></svg></div>Professionals</div>
+      <div class="who-card rv d1" tabindex="0"><div class="w-ico wi-mg" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>Freelancer</div>
+      <div class="who-card rv d2" tabindex="0"><div class="w-ico wi-em" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>Service provider</div>
+    </div>
+    <div class="ticker-wrap rv" aria-hidden="true">
+      <div class="ticker">
+        <span>Mumbai</span><span>Delhi</span><span>Ahmedabad</span><span>Hyderabad</span><span>Rajkot</span><span>Pune</span><span>A small town</span><span>A village</span>
+        <span>Mumbai</span><span>Delhi</span><span>Ahmedabad</span><span>Hyderabad</span><span>Rajkot</span><span>Pune</span><span>A small town</span><span>A village</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-top">
+        <div class="foot-brand">
+          <div class="logo-img" role="img" aria-label="zozo.ai"><span class="li-z">zozo</span><span class="li-ai">.ai</span></div>
+          <p class="foot-tagline">Helping Indian businesses grow with digital tools and AI. We build it, run it, and grow together.</p>
+        </div>
+
+
+      </div>
+      <div class="foot-bottom">
+        <p class="foot-copy">© 2025 <strong>zozo.ai</strong>. All rights reserved. Built with ♥ in India.</p>
+      </div>
+    </div>
+</footer>
+
+<script>
+const nav = document.getElementById('nav');
+const onS = () => nav.classList.toggle('scrolled', scrollY > 40);
+window.addEventListener('scroll', onS, {passive:true}); onS();
+
+const io = new IntersectionObserver(es => {
+  es.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }});
+},{threshold:.14});
+document.querySelectorAll('.rv').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

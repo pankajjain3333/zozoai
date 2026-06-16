@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZOZO AI – India's Trusted AI & Digital Transformation Partner</title>
+  <meta name="description" content="ZOZO AI helps traditional businesses across India adopt AI, automation, websites, mobile apps and custom software to grow faster. Book a free consultation today." />
+  <meta name="keywords" content="AI consulting India, digital transformation, business automation, website development India, mobile app development, CRM ERP, AI chatbot, ZOZO AI" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://zozo.ai/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zozo.ai/" />
+  <meta property="og:title" content="ZOZO AI – Connecting Traditional Bharat with the Technology of New India" />
+  <meta property="og:description" content="We help traditional businesses adopt AI, automation, websites, and apps that improve efficiency, increase sales, and unlock growth." />
+  <meta property="og:image" content="https://zozo.ai/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"ZOZO AI LLP","url":"https://zozo.ai","description":"India's trusted AI and digital transformation partner for businesses.","address":{"@type":"PostalAddress","addressLocality":"Mumbai","addressRegion":"Maharashtra","addressCountry":"IN"},"contactPoint":{"@type":"ContactPoint","telephone":"+91-98765-43210","contactType":"customer service","areaServed":"IN"},"sameAs":["https://www.linkedin.com/company/zozo-ai","https://www.instagram.com/zozo.ai"]}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long does a typical project take?","acceptedAnswer":{"@type":"Answer","text":"Most projects take 4–12 weeks. Simple websites go live in 2–3 weeks; full AI systems take 8–16 weeks."}},{"@type":"Question","name":"What is the minimum budget required?","acceptedAnswer":{"@type":"Answer","text":"Basic websites start from ₹25,000. Custom AI and software solutions are scoped and quoted transparently."}},{"@type":"Question","name":"Do you work with businesses outside major cities?","acceptedAnswer":{"@type":"Answer","text":"Yes — we serve businesses pan-India including Tier 2 and Tier 3 cities, fully remotely."}}]}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      /* Pulled directly from the light logo */
+      --navy:     #1a1a2e;   /* ZOZO wordmark color */
+      --violet:   #6c63ff;   /* gradient start */
+      --teal:     #3ecfcf;   /* AI wordmark + gradient end */
+      --icon-bg:  #ebebf8;   /* logo icon box fill */
+      --icon-bdr: #d0d0e8;   /* logo icon box border */
+
+      /* Site palette — light, airy */
+      --white:    #ffffff;
+      --bg:       #ffffff;
+      --bg-soft:  #f7f6ff;   /* very light lavender, matches icon bg */
+      --bg-card:  #ffffff;
+      --border:   #e8e7f4;   /* same family as icon border */
+      --border-dark: #d0d0e8;
+
+      /* Text */
+      --text-head: #1a1a2e;  /* = --navy */
+      --text-body: #4a4a5a;
+      --text-soft: #8888a0;
+      --text-tag:  #888888;  /* = logo tagline color */
+
+      --radius-sm: 10px;
+      --radius:    16px;
+      --radius-lg: 24px;
+      --font: 'Inter', -apple-system, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); background: var(--bg); color: var(--text-body); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+    /* ─── UTILITY ─── */
+    .container { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 88px 0; }
+    .section-bg { background: var(--bg-soft); }
+
+    .label {
+      display: inline-block;
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--violet); margin-bottom: 12px;
+    }
+    h2 {
+      font-size: clamp(1.75rem, 2.8vw, 2.5rem);
+      font-weight: 800; color: var(--text-head);
+      line-height: 1.2; letter-spacing: -0.025em; margin-bottom: 12px;
+    }
+    .section-lead { font-size: 1rem; color: var(--text-body); max-width: 520px; line-height: 1.75; }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 200;
+      height: 64px;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center;
+    }
+    .nav-inner {
+      width: 100%; max-width: 1140px; margin: 0 auto; padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { display: flex; align-items: center; text-decoration: none; }
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+    .nav-links a { text-decoration: none; font-size: 0.875rem; font-weight: 500; color: var(--text-body); transition: color .15s; }
+    .nav-links a:hover { color: var(--violet); }
+    .nav-btn {
+      font-size: 0.85rem; font-weight: 700;
+      padding: 9px 20px; border-radius: 8px;
+      background: var(--navy); color: #fff;
+      text-decoration: none; transition: background .15s;
+    }
+    .nav-btn:hover { background: var(--violet); }
+    .hamburger { display: none; background: none; border: none; cursor: pointer; flex-direction: column; gap: 5px; padding: 4px; }
+    .hamburger span { display: block; width: 20px; height: 2px; background: var(--navy); border-radius: 2px; }
+
+    /* ─── HERO ─── */
+    .hero {
+      padding: 136px 0 80px;
+      background: var(--bg);
+    }
+    .hero-inner {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 64px; align-items: center;
+    }
+    .hero-tag {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 0.78rem; font-weight: 600; color: var(--text-tag);
+      letter-spacing: 0.06em; text-transform: uppercase;
+      border: 1px solid var(--border-dark);
+      padding: 5px 12px; border-radius: 6px;
+      margin-bottom: 20px;
+    }
+    .hero-tag span {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--teal); flex-shrink: 0;
+    }
+    h1 {
+      font-size: clamp(2.2rem, 4vw, 3.4rem);
+      font-weight: 800; color: var(--text-head);
+      line-height: 1.12; letter-spacing: -0.03em;
+      margin-bottom: 18px;
+    }
+    h1 .h1-teal { color: var(--teal); }
+    .hero-desc {
+      font-size: 1rem; color: var(--text-body); line-height: 1.8;
+      margin-bottom: 32px; max-width: 440px;
+    }
+    .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 44px; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 7px;
+      background: var(--navy); color: #fff;
+      padding: 12px 24px; border-radius: 8px;
+      font-weight: 700; font-size: 0.9rem; text-decoration: none;
+      transition: background .15s;
+    }
+    .btn-primary:hover { background: var(--violet); }
+    .btn-ghost {
+      display: inline-flex; align-items: center; gap: 7px;
+      background: transparent; color: var(--text-head);
+      padding: 12px 24px; border-radius: 8px;
+      font-weight: 600; font-size: 0.9rem; text-decoration: none;
+      border: 1.5px solid var(--border-dark);
+      transition: border-color .15s, color .15s;
+    }
+    .btn-ghost:hover { border-color: var(--violet); color: var(--violet); }
+
+    .hero-social-proof { display: flex; align-items: center; gap: 14px; }
+    .proof-avatars { display: flex; }
+    .proof-av {
+      width: 30px; height: 30px; border-radius: 50%;
+      border: 2px solid #fff; margin-left: -7px;
+      font-size: 0.65rem; font-weight: 800; color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .proof-av:first-child { margin-left: 0; }
+    .av1{background:#6c63ff;} .av2{background:#3ecfcf;} .av3{background:#ff7b7b;} .av4{background:#ffaa44;} .av5{background:#44c97a;}
+    .proof-text { font-size: 0.8rem; color: var(--text-soft); }
+    .proof-text strong { color: var(--text-head); font-weight: 700; }
+
+    /* Hero right: info panel */
+    .hero-panel {
+      background: var(--bg-soft);
+      border: 1px solid var(--border-dark);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+    }
+    .hero-panel-row {
+      display: flex; align-items: flex-start; gap: 14px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-panel-row:first-child { padding-top: 0; }
+    .hero-panel-row:last-child { border-bottom: none; padding-bottom: 0; }
+    .hpr-icon {
+      width: 38px; height: 38px; border-radius: 8px;
+      background: var(--icon-bg); border: 1px solid var(--icon-bdr);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; flex-shrink: 0;
+    }
+    .hpr-title { font-size: 0.875rem; font-weight: 700; color: var(--text-head); margin-bottom: 2px; }
+    .hpr-sub { font-size: 0.78rem; color: var(--text-soft); }
+    .hpr-badge {
+      margin-left: auto; flex-shrink: 0;
+      font-size: 0.65rem; font-weight: 700;
+      padding: 3px 9px; border-radius: 5px;
+      letter-spacing: 0.04em; text-transform: uppercase;
+    }
+    .badge-violet { background: var(--icon-bg); color: var(--violet); border: 1px solid var(--icon-bdr); }
+    .badge-teal   { background: #e6fafa; color: #2aacac; border: 1px solid #b8eaea; }
+    .badge-green  { background: #e8f8ee; color: #1d9136; border: 1px solid #b8e0c4; }
+
+    .hero-stats {
+      display: grid; grid-template-columns: repeat(3,1fr);
+      gap: 1px; background: var(--border);
+      border: 1px solid var(--border-dark);
+      border-radius: var(--radius-sm);
+      overflow: hidden; margin-top: 16px;
+    }
+    .hstat {
+      background: #fff; padding: 16px 14px; text-align: center;
+    }
+    .hstat-num { font-size: 1.5rem; font-weight: 800; color: var(--navy); letter-spacing: -0.02em; }
+    .hstat-num .teal { color: var(--teal); }
+    .hstat-label { font-size: 0.7rem; color: var(--text-soft); margin-top: 3px; font-weight: 500; line-height: 1.3; }
+
+    /* ─── SERVICES ─── */
+    .sec-header { margin-bottom: 44px; }
+    .sec-header-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; flex-wrap: wrap; }
+    .services-grid {
+      display: grid; grid-template-columns: repeat(3,1fr); gap: 16px;
+    }
+    .svc {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      background: var(--bg-card);
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .svc:hover { border-color: var(--violet); box-shadow: 0 4px 20px rgba(108,99,255,0.08); }
+    .svc-icon {
+      width: 42px; height: 42px; border-radius: 9px;
+      background: var(--icon-bg); border: 1px solid var(--icon-bdr);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem; margin-bottom: 14px;
+    }
+    .svc-badge {
+      display: inline-block; font-size: 0.63rem; font-weight: 700;
+      letter-spacing: 0.05em; text-transform: uppercase;
+      padding: 2px 8px; border-radius: 4px; margin-bottom: 8px;
+    }
+    .svc h3 { font-size: 0.95rem; font-weight: 700; color: var(--text-head); margin-bottom: 7px; }
+    .svc p { font-size: 0.835rem; color: var(--text-body); line-height: 1.65; }
+
+    /* ─── INDUSTRIES ─── */
+    .ind-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
+      gap: 10px; margin-top: 36px;
+    }
+    .ind {
+      display: flex; align-items: center; gap: 10px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      font-size: 0.875rem; font-weight: 600; color: var(--text-head);
+      background: var(--bg-card);
+      transition: border-color .15s, color .15s;
+    }
+    .ind:hover { border-color: var(--teal); color: var(--teal); }
+    .ind-icon { font-size: 1.2rem; }
+
+    /* ─── PROCESS ─── */
+    .process-sec { background: var(--navy); }
+    .process-sec .label { color: var(--teal); }
+    .process-sec h2 { color: #fff; }
+    .process-sec .section-lead { color: rgba(255,255,255,0.5); max-width: 480px; }
+    .process-steps {
+      display: grid; grid-template-columns: repeat(5,1fr);
+      gap: 16px; margin-top: 48px;
+    }
+    .pstep { text-align: center; padding: 0 8px; position: relative; }
+    .pstep::after {
+      content: '';
+      position: absolute; top: 20px; left: calc(50% + 24px); right: calc(-50% + 24px);
+      height: 1px; background: rgba(255,255,255,0.1);
+    }
+    .pstep:last-child::after { display: none; }
+    .pstep-circle {
+      width: 40px; height: 40px; border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.15);
+      background: rgba(255,255,255,0.05);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.8rem; font-weight: 800; color: rgba(255,255,255,0.6);
+      margin: 0 auto 16px;
+    }
+    .pstep-title { font-size: 0.875rem; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .pstep-desc { font-size: 0.78rem; color: rgba(255,255,255,0.4); line-height: 1.6; }
+
+    /* ─── RESULTS ─── */
+    .results-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 44px; }
+    .rcard {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      background: var(--bg-card);
+      transition: box-shadow .2s, border-color .2s;
+    }
+    .rcard:hover { box-shadow: 0 8px 30px rgba(26,26,46,0.08); border-color: var(--border-dark); }
+    .rcard-sector {
+      font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--text-soft);
+      margin-bottom: 14px; display: flex; align-items: center; gap: 6px;
+    }
+    .rcard h3 { font-size: 1rem; font-weight: 700; color: var(--text-head); line-height: 1.35; margin-bottom: 10px; }
+    .rcard p { font-size: 0.835rem; color: var(--text-body); line-height: 1.65; margin-bottom: 22px; }
+    .rcard-metrics {
+      display: grid; grid-template-columns: repeat(3,1fr);
+      border-top: 1px solid var(--border); padding-top: 18px;
+      text-align: center;
+    }
+    .rmetric:not(:last-child) { border-right: 1px solid var(--border); }
+    .rmetric-val { font-size: 1.4rem; font-weight: 800; color: var(--navy); letter-spacing: -0.02em; }
+    .rmetric-val.teal { color: var(--teal); }
+    .rmetric-label { font-size: 0.67rem; color: var(--text-soft); margin-top: 2px; font-weight: 500; }
+
+    /* ─── TESTIMONIALS ─── */
+    .testi-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; margin-top: 44px; }
+    .tcard {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 26px;
+      background: var(--bg-card);
+      display: flex; flex-direction: column;
+    }
+    .tcard-stars { color: #f5a623; font-size: 0.8rem; letter-spacing: 2px; margin-bottom: 14px; }
+    .tcard-quote {
+      font-size: 0.875rem; color: var(--text-body); line-height: 1.75;
+      font-style: italic; flex: 1; margin-bottom: 20px;
+    }
+    .tcard-author {
+      display: flex; align-items: center; gap: 10px;
+      padding-top: 18px; border-top: 1px solid var(--border);
+    }
+    .tcard-av {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: var(--icon-bg); border: 1px solid var(--icon-bdr);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.72rem; font-weight: 800; color: var(--violet); flex-shrink: 0;
+    }
+    .tcard-name { font-size: 0.85rem; font-weight: 700; color: var(--text-head); }
+    .tcard-role { font-size: 0.72rem; color: var(--text-soft); margin-top: 1px; }
+
+    /* ─── FAQ ─── */
+    .faq-list { max-width: 680px; margin-top: 44px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-q {
+      width: 100%; background: none; border: none;
+      padding: 18px 0;
+      display: flex; justify-content: space-between; align-items: center; gap: 16px;
+      font-family: var(--font); font-size: 0.925rem; font-weight: 700;
+      color: var(--text-head); cursor: pointer; text-align: left;
+    }
+    .faq-q:hover { color: var(--violet); }
+    .faq-icon {
+      width: 26px; height: 26px; border-radius: 50%; flex-shrink: 0;
+      border: 1.5px solid var(--border-dark);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; color: var(--text-soft);
+      transition: transform .2s, background .2s, color .2s, border-color .2s;
+    }
+    .faq-item.open .faq-icon { transform: rotate(45deg); background: var(--navy); color: #fff; border-color: var(--navy); }
+    .faq-ans { overflow: hidden; max-height: 0; transition: max-height .4s ease; }
+    .faq-item.open .faq-ans { max-height: 300px; }
+    .faq-ans p { font-size: 0.875rem; color: var(--text-body); line-height: 1.75; padding-bottom: 18px; }
+
+    /* ─── CTA BAND ─── */
+    .cta-sec {
+      background: var(--bg-soft);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      text-align: center; padding: 88px 0;
+    }
+    .cta-sec h2 { margin-bottom: 10px; }
+    .cta-sec p { color: var(--text-body); margin-bottom: 32px; font-size: 0.975rem; }
+    .cta-btns { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+
+    /* ─── CONTACT ─── */
+    .contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 60px; align-items: start; }
+    .contact-left h2 { margin-bottom: 12px; }
+    .contact-left > p { font-size: 0.925rem; color: var(--text-body); line-height: 1.75; margin-bottom: 32px; }
+    .cinfo { display: flex; flex-direction: column; gap: 16px; }
+    .cinfo-row { display: flex; align-items: flex-start; gap: 12px; }
+    .cinfo-icon {
+      width: 36px; height: 36px; border-radius: 8px;
+      background: var(--icon-bg); border: 1px solid var(--icon-bdr);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; flex-shrink: 0;
+    }
+    .cinfo-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--text-soft); margin-bottom: 2px; }
+    .cinfo-val { font-size: 0.85rem; font-weight: 600; color: var(--text-head); }
+    .cinfo-val a { color: inherit; text-decoration: none; }
+    .cinfo-val a:hover { color: var(--violet); }
+
+    .cform {
+      background: var(--bg-soft);
+      border: 1px solid var(--border-dark);
+      border-radius: var(--radius-lg); padding: 32px;
+    }
+    .cform-title { font-size: 1.05rem; font-weight: 800; color: var(--text-head); margin-bottom: 22px; }
+    .fg { margin-bottom: 12px; }
+    .fg-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .fg label { display: block; font-size: 0.72rem; font-weight: 700; color: var(--text-soft); margin-bottom: 5px; letter-spacing: 0.03em; text-transform: uppercase; }
+    .fg input, .fg select, .fg textarea {
+      width: 100%; padding: 10px 14px;
+      background: var(--white); border: 1px solid var(--border-dark);
+      border-radius: var(--radius-sm);
+      font-family: var(--font); font-size: 0.875rem; color: var(--text-head);
+      outline: none; transition: border-color .15s;
+    }
+    .fg input:focus, .fg select:focus, .fg textarea:focus { border-color: var(--violet); }
+    .fg textarea { min-height: 90px; resize: vertical; }
+    .cform-btn {
+      width: 100%; margin-top: 8px; padding: 13px;
+      border: none; border-radius: 8px;
+      background: var(--navy); color: #fff;
+      font-family: var(--font); font-size: 0.9rem; font-weight: 700;
+      cursor: pointer; transition: background .15s;
+    }
+    .cform-btn:hover { background: var(--violet); }
+    .cform-note { text-align: center; font-size: 0.72rem; color: var(--text-soft); margin-top: 10px; }
+    .field-error { color: #d0282e; font-size: 0.72rem; font-weight: 600; margin-top: 4px; display: none; }
+    .fg input.invalid, .fg select.invalid, .fg textarea.invalid { border-color: #d0282e !important; }
+    .form-msg { padding: 12px 16px; border-radius: 8px; font-size: 0.855rem; font-weight: 600; margin-bottom: 14px; display: none; }
+    .form-msg.success { background: #eafaf1; color: #1d9136; border: 1px solid #b8e0c4; }
+    .form-msg.error   { background: #fdecea; color: #d0282e; border: 1px solid #f5b7b1; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: var(--navy); padding: 60px 0 28px;
+    }
+    .foot-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 44px; }
+    .foot-desc { font-size: 0.825rem; color: rgba(255,255,255,0.35); line-height: 1.75; margin: 14px 0 20px; max-width: 240px; }
+    .foot-socials { display: flex; gap: 8px; }
+    .fsoc {
+      width: 32px; height: 32px; border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.12);
+      display: flex; align-items: center; justify-content: center;
+      text-decoration: none; font-size: 0.72rem; font-weight: 800;
+      color: rgba(255,255,255,0.4);
+      transition: background .15s, color .15s, border-color .15s;
+    }
+    .fsoc:hover { background: var(--violet); color: #fff; border-color: var(--violet); }
+    .foot-col-title { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 14px; }
+    .foot-links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .foot-links a { text-decoration: none; font-size: 0.835rem; color: rgba(255,255,255,0.45); transition: color .15s; }
+    .foot-links a:hover { color: rgba(255,255,255,0.85); }
+    .foot-bottom {
+      border-top: 1px solid rgba(255,255,255,0.07);
+      padding-top: 22px;
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
+    }
+    .foot-copy { font-size: 0.75rem; color: rgba(255,255,255,0.25); }
+    .foot-legal { display: flex; gap: 18px; }
+    .foot-legal a { font-size: 0.75rem; color: rgba(255,255,255,0.25); text-decoration: none; transition: color .15s; }
+    .foot-legal a:hover { color: rgba(255,255,255,0.55); }
+
+    /* WhatsApp */
+    .wa {
+      position: fixed; bottom: 22px; right: 22px; z-index: 999;
+      width: 48px; height: 48px; border-radius: 50%;
+      background: #25D366; color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      text-decoration: none; font-size: 1.35rem;
+      box-shadow: 0 4px 16px rgba(37,211,102,0.35);
+      transition: transform .15s;
+    }
+    .wa:hover { transform: scale(1.08); }
+
+    /* Reveal */
+    .rv { opacity: 0; transform: translateY(14px); transition: opacity .45s ease, transform .45s ease; }
+    .rv.in { opacity: 1; transform: translateY(0); }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 960px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 40px; }
+      .services-grid { grid-template-columns: repeat(2,1fr); }
+      .results-grid { grid-template-columns: 1fr; }
+      .testi-grid { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .foot-grid { grid-template-columns: 1fr 1fr; }
+      .process-steps { grid-template-columns: 1fr 1fr; gap: 20px; }
+      .pstep::after { display: none; }
+    }
+    @media (max-width: 640px) {
+      .nav-links, .nav-btn { display: none; }
+      .hamburger { display: flex; }
+      section { padding: 64px 0; }
+      .services-grid { grid-template-columns: 1fr; }
+      .foot-grid { grid-template-columns: 1fr; }
+      .fg-row { grid-template-columns: 1fr; }
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.6rem; }
+      .process-steps { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo" aria-label="ZOZO AI Home" style="display:flex;flex-direction:column;gap:0;text-decoration:none;line-height:1;">
+      <!-- Variant A · Pure Wordmark -->
+      <style>
+        .va-wordmark { display:flex; align-items:baseline; gap:0; }
+        .va-zozo  { font-family:'Inter',-apple-system,sans-serif; font-size:1.25rem; font-weight:800; color:#1a1a2e; letter-spacing:-0.05em; line-height:1; }
+        .va-sep   { font-family:'Inter',-apple-system,sans-serif; font-size:1.25rem; font-weight:300; color:#6c63ff; margin:0 3px; line-height:1; }
+        .va-ai    { font-family:'Inter',-apple-system,sans-serif; font-size:1.25rem; font-weight:300; color:#3ecfcf; letter-spacing:-0.01em; line-height:1; }
+        .va-underline {
+          height: 1.5px;
+          width: 100%;
+          background: linear-gradient(90deg, #6c63ff, #3ecfcf, transparent);
+          margin-top: 5px;
+          border-radius: 2px;
+        }
+        .va-tagline { font-family:'Inter',-apple-system,sans-serif; font-size:0.58rem; font-weight:500; letter-spacing:0.2em; text-transform:uppercase; color:#b0b0c8; margin-top:4px; }
+      </style>
+      <div class="va-wordmark">
+        <span class="va-zozo">zozo</span>
+        <span class="va-sep"> · </span>
+        <span class="va-ai">ai</span>
+      </div>
+      <div class="va-underline"></div>
+      <div class="va-tagline">Grow Together</div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#process">How We Work</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="#contact" class="nav-btn">Book Free Consult</a>
+    <button class="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="home">
+  <div class="container">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-tag"><span></span>India's Trusted AI Partner</div>
+        <h1>The Bridge Between Traditional Bharat and <span class="h1-teal">Digital India</span></h1>
+        <p class="hero-desc">Whether you're a retailer, manufacturer, trader, or service provider — ZOZO AI gives you the AI, automation, and digital tools to grow in today's world.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Book Free Consultation</a>
+          <a href="#results" class="btn-ghost">See Client Results →</a>
+        </div>
+        <div class="hero-social-proof">
+          <div class="proof-avatars">
+            <div class="proof-av av1">RS</div>
+            <div class="proof-av av2">PJ</div>
+            <div class="proof-av av3">AK</div>
+            <div class="proof-av av4">MV</div>
+            <div class="proof-av av5">SK</div>
+          </div>
+          <p class="proof-text"><strong>200+ businesses</strong> transformed across India</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="hero-panel">
+          <div class="hero-panel-row">
+            <div class="hpr-icon">🤖</div>
+            <div><div class="hpr-title">AI Consulting & Implementation</div><div class="hpr-sub">Tailored AI strategy for your business</div></div>
+            <span class="hpr-badge badge-violet">Popular</span>
+          </div>
+          <div class="hero-panel-row">
+            <div class="hpr-icon">⚙️</div>
+            <div><div class="hpr-title">Business Process Automation</div><div class="hpr-sub">Cut costs, eliminate manual work</div></div>
+            <span class="hpr-badge badge-green">High ROI</span>
+          </div>
+          <div class="hero-panel-row">
+            <div class="hpr-icon">🌐</div>
+            <div><div class="hpr-title">Website & App Development</div><div class="hpr-sub">Fast, SEO-ready, lead-generating</div></div>
+            <span class="hpr-badge badge-teal">Live</span>
+          </div>
+          <div class="hero-panel-row">
+            <div class="hpr-icon">💬</div>
+            <div><div class="hpr-title">AI Chatbots & WhatsApp Agents</div><div class="hpr-sub">24/7 lead qualification & support</div></div>
+            <span class="hpr-badge badge-teal">24/7</span>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="hstat"><div class="hstat-num">200+</div><div class="hstat-label">Businesses Transformed</div></div>
+          <div class="hstat"><div class="hstat-num teal">98%</div><div class="hstat-label">Client Satisfaction</div></div>
+          <div class="hstat"><div class="hstat-num">50+</div><div class="hstat-label">AI Solutions Deployed</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- SERVICES -->
+<section class="section-bg" id="services">
+  <div class="container">
+    <div class="sec-header sec-header-row">
+      <div>
+        <div class="label">What We Do</div>
+        <h2>Comprehensive Technology Services</h2>
+        <p class="section-lead">From AI strategy to hands-on delivery — everything your business needs to go digital and grow.</p>
+      </div>
+      <a href="#contact" class="btn-primary" style="white-space:nowrap;align-self:flex-end">Discuss Your Needs →</a>
+    </div>
+    <div class="services-grid">
+      <article class="svc rv">
+        <div class="svc-icon">🤖</div>
+        <span class="svc-badge badge-violet">Most Popular</span>
+        <h3>AI Consulting & Implementation</h3>
+        <p>Custom AI strategy, model selection, and full implementation tailored to your business goals and workflows.</p>
+      </article>
+      <article class="svc rv">
+        <div class="svc-icon">⚙️</div>
+        <span class="svc-badge badge-green">High ROI</span>
+        <h3>Business Process Automation</h3>
+        <p>Eliminate repetitive tasks, reduce errors, and cut costs with intelligent RPA and workflow automation.</p>
+      </article>
+      <article class="svc rv">
+        <div class="svc-icon">💻</div>
+        <span class="svc-badge badge-teal">Enterprise Grade</span>
+        <h3>Custom Software Development</h3>
+        <p>Scalable, secure software built from scratch — aligned perfectly with your business processes.</p>
+      </article>
+      <article class="svc rv">
+        <div class="svc-icon">🌐</div>
+        <span class="svc-badge badge-green">Lead Generation</span>
+        <h3>Website Development</h3>
+        <p>Fast, SEO-optimized websites that convert visitors into customers — from landing pages to full portals.</p>
+      </article>
+      <article class="svc rv">
+        <div class="svc-icon">📱</div>
+        <span class="svc-badge badge-violet">iOS & Android</span>
+        <h3>Mobile App Development</h3>
+        <p>Native and cross-platform apps that deliver seamless user experiences and drive business engagement.</p>
+      </article>
+      <article class="svc rv">
+        <div class="svc-icon">📊</div>
+        <span class="svc-badge badge-teal">Operations</span>
+        <h3>CRM & ERP Solutions</h3>
+        <p>Streamline sales, inventory, and finance with CRM and ERP systems built for your industry.</p>
+      </article>
+      <article class="svc rv">
+        <div class="svc-icon">💬</div>
+        <span class="svc-badge badge-green">24/7 Active</span>
+        <h3>AI Chatbots & AI Agents</h3>
+        <p>Intelligent customer support and lead qualification through WhatsApp, website, and app chatbots.</p>
+      </article>
+      <article class="svc rv">
+        <div class="svc-icon">☁️</div>
+        <span class="svc-badge badge-violet">Scalable</span>
+        <h3>Cloud Solutions</h3>
+        <p>Migrate and optimize on AWS, Azure, and GCP for better performance and cost savings.</p>
+      </article>
+      <article class="svc rv">
+        <div class="svc-icon">📈</div>
+        <span class="svc-badge badge-teal">Data-Driven</span>
+        <h3>Data Analytics & Dashboards</h3>
+        <p>Turn raw business data into actionable insights with real-time dashboards and smart reporting.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section id="industries">
+  <div class="container">
+    <div class="label">Industries We Serve</div>
+    <h2>Built for Every Sector</h2>
+    <p class="section-lead">Deep domain expertise across industries means faster results and solutions that actually fit your business context.</p>
+    <div class="ind-grid">
+      <div class="ind rv"><span class="ind-icon">🏭</span>Manufacturing</div>
+      <div class="ind rv"><span class="ind-icon">🏢</span>Real Estate</div>
+      <div class="ind rv"><span class="ind-icon">🏥</span>Healthcare</div>
+      <div class="ind rv"><span class="ind-icon">🎓</span>Education</div>
+      <div class="ind rv"><span class="ind-icon">🛍️</span>Retail & E-Commerce</div>
+      <div class="ind rv"><span class="ind-icon">💰</span>Finance & BFSI</div>
+      <div class="ind rv"><span class="ind-icon">🚚</span>Logistics & Transport</div>
+      <div class="ind rv"><span class="ind-icon">🤝</span>Professional Services</div>
+      <div class="ind rv"><span class="ind-icon">🚀</span>Startups</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process-sec" id="process">
+  <div class="container">
+    <div class="label">How We Work</div>
+    <h2>Our Proven 5-Step Process</h2>
+    <p class="section-lead">Structured and transparent — your project delivered on time, within budget, beyond expectations.</p>
+    <div class="process-steps">
+      <div class="pstep">
+        <div class="pstep-circle">01</div>
+        <div class="pstep-title">Business Assessment</div>
+        <div class="pstep-desc">Deep-dive into your operations and goals to find where technology adds the most value.</div>
+      </div>
+      <div class="pstep">
+        <div class="pstep-circle">02</div>
+        <div class="pstep-title">Technology Planning</div>
+        <div class="pstep-desc">Custom roadmap with the right tools and AI models for your budget and timeline.</div>
+      </div>
+      <div class="pstep">
+        <div class="pstep-circle">03</div>
+        <div class="pstep-title">Development</div>
+        <div class="pstep-desc">Agile sprints with regular demos and full transparency so you always know where things stand.</div>
+      </div>
+      <div class="pstep">
+        <div class="pstep-circle">04</div>
+        <div class="pstep-title">AI Integration</div>
+        <div class="pstep-desc">Layer intelligence into your systems — automating workflows and connecting data pipelines.</div>
+      </div>
+      <div class="pstep">
+        <div class="pstep-circle">05</div>
+        <div class="pstep-title">Training & Support</div>
+        <div class="pstep-desc">Complete team training and dedicated post-launch support so your systems run smoothly.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results">
+  <div class="container">
+    <div class="label">Success Stories</div>
+    <h2>Real Results, Real Businesses</h2>
+    <p class="section-lead">Measurable impact on efficiency, costs, and revenue for businesses across India.</p>
+    <div class="results-grid">
+      <article class="rcard rv">
+        <div class="rcard-sector">🏭 Manufacturing — Pune</div>
+        <h3>Factory Automation Reduced Operational Costs by 40%</h3>
+        <p>A mid-sized auto parts manufacturer was losing lakhs monthly due to manual inventory errors. We implemented an AI-powered ERP with real-time production tracking and automated purchase orders.</p>
+        <div class="rcard-metrics">
+          <div class="rmetric"><div class="rmetric-val">40%</div><div class="rmetric-label">Cost Saved</div></div>
+          <div class="rmetric"><div class="rmetric-val teal">3×</div><div class="rmetric-label">Faster Inventory</div></div>
+          <div class="rmetric"><div class="rmetric-val">₹18L</div><div class="rmetric-label">Saved/Year</div></div>
+        </div>
+      </article>
+      <article class="rcard rv">
+        <div class="rcard-sector">🏢 Real Estate — Mumbai</div>
+        <h3>AI Chatbot Increased Lead Conversions by 62%</h3>
+        <p>A real estate firm was missing hundreds of leads due to slow follow-ups. We deployed an AI WhatsApp chatbot that qualifies leads 24/7 and schedules site visits automatically.</p>
+        <div class="rcard-metrics">
+          <div class="rmetric"><div class="rmetric-val">62%</div><div class="rmetric-label">More Leads</div></div>
+          <div class="rmetric"><div class="rmetric-val teal">5min</div><div class="rmetric-label">Response Time</div></div>
+          <div class="rmetric"><div class="rmetric-val">24/7</div><div class="rmetric-label">Coverage</div></div>
+        </div>
+      </article>
+      <article class="rcard rv">
+        <div class="rcard-sector">🎓 EdTech — Bangalore</div>
+        <h3>Custom LMS Scaled to 50,000 Students in 8 Weeks</h3>
+        <p>An online coaching institute needed a scalable platform for live classes and analytics. We built a full LMS with AI-based performance tracking — delivered in just 8 weeks.</p>
+        <div class="rcard-metrics">
+          <div class="rmetric"><div class="rmetric-val">50K</div><div class="rmetric-label">Students</div></div>
+          <div class="rmetric"><div class="rmetric-val teal">320%</div><div class="rmetric-label">Revenue Growth</div></div>
+          <div class="rmetric"><div class="rmetric-val">8wks</div><div class="rmetric-label">Delivery</div></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section-bg">
+  <div class="container">
+    <div class="label">Client Testimonials</div>
+    <h2>Trusted by Business Leaders</h2>
+    <div class="testi-grid">
+      <div class="tcard rv">
+        <div class="tcard-stars">★★★★★</div>
+        <p class="tcard-quote">ZOZO AI transformed our manufacturing unit. Their ERP and automation system saved us over ₹15 lakhs in the first year alone. The team truly understood our business.</p>
+        <div class="tcard-author">
+          <div class="tcard-av">RS</div>
+          <div><div class="tcard-name">Rajesh Sharma</div><div class="tcard-role">Director, Precision Auto Parts, Pune</div></div>
+        </div>
+      </div>
+      <div class="tcard rv">
+        <div class="tcard-stars">★★★★★</div>
+        <p class="tcard-quote">The AI chatbot they built works like magic. Leads are auto-qualified, follow-ups are automatic, and our sales team now focuses only on serious buyers. Game changer!</p>
+        <div class="tcard-author">
+          <div class="tcard-av">PJ</div>
+          <div><div class="tcard-name">Priya Joshi</div><div class="tcard-role">Founder, PropFind Realty, Mumbai</div></div>
+        </div>
+      </div>
+      <div class="tcard rv">
+        <div class="tcard-stars">★★★★★</div>
+        <p class="tcard-quote">Excellent team, fast execution, brilliant results. They built our entire platform in 8 weeks — scaled to 50,000 students seamlessly. ZOZO AI is our long-term technology partner.</p>
+        <div class="tcard-author">
+          <div class="tcard-av">AK</div>
+          <div><div class="tcard-name">Anand Kumar</div><div class="tcard-role">CEO, BrightPath EdTech, Bangalore</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="label">Common Questions</div>
+    <h2>Everything You Need to Know</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How long does a typical project take?<span class="faq-icon">+</span></button>
+        <div class="faq-ans"><p>Most projects take 4–12 weeks. Simple websites go live in 2–3 weeks; full AI implementations take 8–16 weeks. We've delivered complete platforms in as little as 8 weeks.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">What is the minimum budget required?<span class="faq-icon">+</span></button>
+        <div class="faq-ans"><p>Basic websites start from ₹25,000. Custom software, AI, and enterprise systems are scoped and quoted transparently — no hidden charges.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you provide post-launch support?<span class="faq-icon">+</span></button>
+        <div class="faq-ans"><p>Yes. Every project includes a dedicated support period with SLA-backed response times and monthly retainer options for ongoing maintenance and enhancements.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Can you integrate with our existing systems?<span class="faq-icon">+</span></button>
+        <div class="faq-ans"><p>Absolutely. We connect ERPs, CRMs, payment gateways, logistics APIs, and legacy systems into one seamless ecosystem. Integration is core to everything we build.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Is our business data secure?<span class="faq-icon">+</span></button>
+        <div class="faq-ans"><p>Security is built in from day one — standard encryption, access controls, and compliance practices. All data stays within India on compliant infrastructure.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you work with businesses outside major cities?<span class="faq-icon">+</span></button>
+        <div class="faq-ans"><p>Yes — we serve businesses pan-India, from metros to Tier 2 and Tier 3 cities. All services are delivered remotely with the same quality and care.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-sec">
+  <div class="container">
+    <h2>Ready to Grow Your Business with AI?</h2>
+    <p>Book a free 30-minute consultation. No obligations — just clarity on how we can help.</p>
+    <div class="cta-btns">
+      <a href="#contact" class="btn-primary">Book Free Consultation</a>
+      <a href="https://wa.me/919876543210" class="btn-ghost" target="_blank">Chat on WhatsApp →</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-left">
+        <div class="label">Get in Touch</div>
+        <h2>Let's Transform Your Business Together</h2>
+        <p>Book a free 30-minute call with our technology experts. No obligations — just a clear understanding of how we can help your business grow.</p>
+        <div class="cinfo">
+          <div class="cinfo-row">
+            <div class="cinfo-icon">✉️</div>
+            <div>
+              <div class="cinfo-label">Email</div>
+              <div class="cinfo-val"><a href="mailto:hello.zozoai.india@gmail.com">hello.zozoai.india@gmail.com</a></div>
+            </div>
+          </div>
+          <div class="cinfo-row">
+            <div class="cinfo-icon">📞</div>
+            <div>
+              <div class="cinfo-label">Call / WhatsApp</div>
+              <div class="cinfo-val"><a href="tel:+919876543210">+91 98765 43210</a> · Mon–Sat, 9AM–7PM IST</div>
+            </div>
+          </div>
+          <div class="cinfo-row">
+            <div class="cinfo-icon">📍</div>
+            <div>
+              <div class="cinfo-label">Office</div>
+              <div class="cinfo-val">Mumbai, Maharashtra · Serving businesses pan-India</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cform">
+        <div class="cform-title">Book Your Free Consultation</div>
+        <!-- Contact Form — Formspree ID: mbdepbll -->
+        <div id="form-success" style="display:none;text-align:center;padding:28px 0 20px;">
+          <div style="font-size:2.8rem;margin-bottom:12px;">✅</div>
+          <h3 style="font-size:1.05rem;font-weight:800;color:var(--text-head);margin-bottom:6px;">We've received your request!</h3>
+          <p style="font-size:0.855rem;color:var(--text-soft);">Our team will reach out within 2 hours to confirm your free consultation.</p>
+        </div>
+        <form id="contact-form" novalidate style="display:block;">
+          <div id="form-top-msg" class="form-msg"></div>
+          <div class="fg-row">
+            <div class="fg">
+              <label for="fn">Your Name *</label>
+              <input type="text" id="fn" name="name" placeholder="Full name" autocomplete="name"/>
+              <span class="field-error" id="err-name">Please enter your name.</span>
+            </div>
+            <div class="fg">
+              <label for="co">Company Name *</label>
+              <input type="text" id="co" name="company" placeholder="Your company" autocomplete="organization"/>
+              <span class="field-error" id="err-company">Please enter your company name.</span>
+            </div>
+          </div>
+          <div class="fg-row">
+            <div class="fg">
+              <label for="ph">Mobile Number *</label>
+              <input type="tel" id="ph" name="phone" placeholder="+91 XXXXX XXXXX" autocomplete="tel"/>
+              <span class="field-error" id="err-phone">Please enter a valid 10-digit mobile number.</span>
+            </div>
+            <div class="fg">
+              <label for="em">Email Address *</label>
+              <input type="email" id="em" name="email" placeholder="work@company.com" autocomplete="email"/>
+              <span class="field-error" id="err-email">Please enter a valid email address.</span>
+            </div>
+          </div>
+          <div class="fg">
+            <label for="bt">Business Type</label>
+            <select id="bt" name="business_type">
+              <option value="">Select business type</option>
+              <option>Manufacturing</option><option>Real Estate</option><option>Healthcare</option>
+              <option>Education</option><option>Retail &amp; E-Commerce</option><option>Finance &amp; BFSI</option>
+              <option>Logistics &amp; Transport</option><option>Professional Services</option>
+              <option>Startup</option><option>Other</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label for="sv">Services Required</label>
+            <select id="sv" name="service">
+              <option value="">What do you need?</option>
+              <option>AI Consulting &amp; Implementation</option><option>Business Process Automation</option>
+              <option>Website Development</option><option>Mobile App Development</option>
+              <option>Custom Software</option><option>CRM / ERP</option><option>AI Chatbot</option>
+              <option>Cloud Solutions</option><option>Data Analytics</option>
+            </select>
+          </div>
+          <div class="fg">
+            <label for="msg">Tell Us About Your Business</label>
+            <textarea id="msg" name="message" placeholder="Briefly describe your business and the challenges you want to solve..."></textarea>
+          </div>
+          <button type="button" id="submit-btn" class="cform-btn" onclick="submitContactForm()">Book Free Consultation</button>
+          <p class="cform-note">Free 30-min call &nbsp;·&nbsp; No obligations &nbsp;·&nbsp; Response within 2 hours</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <!-- Footer logo — Variant A dark -->
+        <div style="display:flex;flex-direction:column;gap:0;line-height:1;margin-bottom:4px;">
+          <div style="display:flex;align-items:baseline;gap:0;">
+            <span style="font-family:'Inter',-apple-system,sans-serif;font-size:1.35rem;font-weight:800;color:#ffffff;letter-spacing:-0.05em;line-height:1;">zozo</span>
+            <span style="font-family:'Inter',-apple-system,sans-serif;font-size:1.35rem;font-weight:300;color:#6c63ff;margin:0 3px;line-height:1;"> · </span>
+            <span style="font-family:'Inter',-apple-system,sans-serif;font-size:1.35rem;font-weight:300;color:#3ecfcf;letter-spacing:-0.01em;line-height:1;">ai</span>
+          </div>
+          <div style="height:1.5px;background:linear-gradient(90deg,#6c63ff,#3ecfcf,transparent);margin-top:5px;border-radius:2px;"></div>
+          <span style="font-family:'Inter',-apple-system,sans-serif;font-size:0.58rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:#444460;margin-top:5px;">Grow Together</span>
+        </div>
+        <p class="foot-desc">Where Business Meets AI. Helping Indian businesses digitize, automate, and grow with cutting-edge technology solutions.</p>
+        <div class="foot-socials">
+          <a href="#" class="fsoc" aria-label="LinkedIn">in</a>
+          <a href="#" class="fsoc" aria-label="Instagram">ig</a>
+          <a href="#" class="fsoc" aria-label="Twitter">𝕏</a>
+          <a href="#" class="fsoc" aria-label="Facebook">fb</a>
+          <a href="#" class="fsoc" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+      <div>
+        <div class="foot-col-title">Services</div>
+        <ul class="foot-links">
+          <li><a href="#services">AI Consulting</a></li>
+          <li><a href="#services">Business Automation</a></li>
+          <li><a href="#services">Software Development</a></li>
+          <li><a href="#services">Website Development</a></li>
+          <li><a href="#services">Mobile Apps</a></li>
+          <li><a href="#services">CRM & ERP</a></li>
+          <li><a href="#services">AI Chatbots</a></li>
+          <li><a href="#services">Cloud Solutions</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="foot-col-title">Company</div>
+        <ul class="foot-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#industries">Industries</a></li>
+          <li><a href="#process">How We Work</a></li>
+          <li><a href="#results">Case Studies</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="foot-col-title">Contact</div>
+        <ul class="foot-links">
+          <li><a href="mailto:hello.zozoai.india@gmail.com">hello.zozoai.india@gmail.com</a></li>
+          <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><a>Mumbai, Maharashtra</a></li>
+          <li><a>Serving Pan-India</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p class="foot-copy">© 2025 ZOZO AI LLP. All rights reserved. CIN: AAABZ9999LLP</p>
+      <div class="foot-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/919876543210" class="wa" aria-label="Chat on WhatsApp" target="_blank" rel="noopener noreferrer">💬</a>
+
+<script>
+  // FAQ
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const open = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => { i.classList.remove('open'); i.querySelector('.faq-q').setAttribute('aria-expanded','false'); });
+      if (!open) { item.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
+    });
+  });
+
+  // Scroll reveal
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.rv').forEach(el => obs.observe(el));
+
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const t = document.querySelector(a.getAttribute('href'));
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+    });
+  });
+
+  // ── Contact form validation + Formspree submit
+  function setError(inputId, errId, show) {
+    var inp = document.getElementById(inputId);
+    var err = document.getElementById(errId);
+    if (!inp || !err) return;
+    if (show) {
+      inp.classList.add('invalid');
+      err.style.display = 'block';
+    } else {
+      inp.classList.remove('invalid');
+      err.style.display = 'none';
+    }
+  }
+
+  function showTopMsg(msg, type) {
+    var el = document.getElementById('form-top-msg');
+    if (!el) return;
+    el.textContent = msg;
+    el.className = 'form-msg ' + type;
+    el.style.display = 'block';
+  }
+
+  function hideTopMsg() {
+    var el = document.getElementById('form-top-msg');
+    if (el) { el.style.display = 'none'; el.textContent = ''; }
+  }
+
+  async function submitContactForm() {
+    var name    = document.getElementById('fn').value.trim();
+    var company = document.getElementById('co').value.trim();
+    var phone   = document.getElementById('ph').value.trim();
+    var email   = document.getElementById('em').value.trim();
+    var phoneOk = /^[6-9]\d{9}$/.test(phone.replace(/[\s\-\+]/g, '').replace(/^91/, ''));
+    var emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+    var valid = true;
+    hideTopMsg();
+
+    setError('fn', 'err-name',    !name);    if (!name)    valid = false;
+    setError('co', 'err-company', !company); if (!company) valid = false;
+    setError('ph', 'err-phone',   !phoneOk); if (!phoneOk) valid = false;
+    setError('em', 'err-email',   !emailOk); if (!emailOk) valid = false;
+
+    if (!valid) {
+      showTopMsg('Please fix the highlighted fields before submitting.', 'error');
+      return;
+    }
+
+    var btn = document.getElementById('submit-btn');
+    btn.textContent = 'Sending...';
+    btn.disabled = true;
+
+    try {
+      var form = document.getElementById('contact-form');
+      var res = await fetch('https://formspree.io/f/mbdepbll', {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (res.ok) {
+        // Success — hide form, show confirmation
+        form.style.display = 'none';
+        document.getElementById('form-success').style.display = 'block';
+        document.getElementById('form-success').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        // Formspree returned an error
+        var data = {};
+        try { data = await res.json(); } catch(e) {}
+        var msg = (data.errors && data.errors[0] && data.errors[0].message)
+          || 'Submission failed (status ' + res.status + '). Please email us directly at hello.zozoai.india@gmail.com';
+        showTopMsg(msg, 'error');
+        btn.textContent = 'Book Free Consultation';
+        btn.disabled = false;
+      }
+    } catch(err) {
+      // Network blocked or offline — tell user to email directly
+      showTopMsg(
+        'Could not connect. Please email us directly at hello.zozoai.india@gmail.com or WhatsApp +91 98765 43210.',
+        'error'
+      );
+      btn.textContent = 'Book Free Consultation';
+      btn.disabled = false;
+    }
+  }
+
+  // Clear field error on input
+  ['fn','co','ph','em'].forEach(function(id) {
+    var el = document.getElementById(id);
+    if (el) el.addEventListener('input', function() {
+      el.classList.remove('invalid');
+      var errMap = {fn:'err-name', co:'err-company', ph:'err-phone', em:'err-email'};
+      var errEl = document.getElementById(errMap[id]);
+      if (errEl) errEl.style.display = 'none';
+    });
+  });
+</script>
+</body>
+</html>
