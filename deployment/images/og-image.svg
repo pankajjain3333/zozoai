@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17142E"/>
+      <stop offset="1" stop-color="#241F5C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="80" y="80" width="64" height="64" rx="14" fill="#17142E" stroke="#FFBE2E" stroke-width="3"/>
+  <polyline points="94,94 130,94 94,130 130,130" fill="none" stroke="#FFBE2E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="80" y="330" font-family="Arial, sans-serif" font-size="96" font-weight="700" fill="#F5F2EA">
+    zozo<tspan fill="#FFBE2E">.ai</tspan>
+  </text>
+  <text x="80" y="400" font-family="Arial, sans-serif" font-size="34" font-weight="600" fill="#FFBE2E" letter-spacing="1">
+    GROW TOGETHER
+  </text>
+  <text x="80" y="460" font-family="Arial, sans-serif" font-size="28" fill="#CFCBE6">
+    Digital Solutions &amp; AI for Indian Businesses
+  </text>
+</svg>
